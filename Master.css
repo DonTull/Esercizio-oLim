@@ -1,0 +1,112 @@
+/* Impostazioni generali del corpo della pagina */
+body{
+    width: 700px;
+    background-image: url(Img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+}
+
+
+/* Impostazioni del quadrato nero trasparente */
+.black-square{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 30px;
+    height: auto;
+    padding: 50px;
+}
+
+
+/* Impostato il colore bianco per tutti i testi nel main - impostazione generale */
+main{
+    color: white;
+}
+
+
+/* Impostazioni immagine logo */
+img.logo{
+    width: 200px;
+    display: block;
+}
+
+
+/* Impostazioni titoto primario verde */
+header h1{
+    color: #00dd00;
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+/* Impostazione per la struttura dei button */
+div#buttons{
+    display: flex;
+    justify-content: center;
+    background-color: #00dd00;
+    height: 40px;
+}
+
+
+/* Impostazione per la posizione dei button */
+div button{
+    height: 20px;
+    margin: 10px;
+}
+
+
+/* Selettore intestazione sezioni */
+section h3:first-of-type{
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+/* Impostazioni generali delle barre colorate dello stato di carica */
+.stato-sect{
+    border-radius: 5px;
+    height: 20px;
+    margin: 0;
+}
+
+
+/* Prima barra di stato della carica */
+.stato-sect-one{
+    width: 250px;
+    background: #f5b453;
+}
+
+
+/* Seconda barra di stato della carica */
+.stato-sect-two{
+    width: 400px;
+    background: #1ec31e;
+}
+
+
+/* Terza barra di stato della carica */
+.stato-sect-three{
+    width: 100px;
+    background-color: #be4141;
+}
+
+
+/* Carattere speciale freccia laterale  */
+.arrow:before{
+    content: "\21A6"; 
+}
+
+
+/* Impostazioni generali pagina */
+*{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
